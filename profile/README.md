@@ -24,7 +24,7 @@ No server and no account: it works offline, and every file, app and setting stay
 | **Offline first** | After the first visit SreeOS starts with the network unplugged. Big engines (Python, the PC emulator) download once, on first use. |
 | **Local only** | There is no SreeOS server. Nothing you make leaves your device unless you send it somewhere. |
 | **Network is opt-in** | Only the apps and sources you choose go online, such as an App Store catalog or a web app. |
-| **Sandboxed apps** | Every app runs in a sandbox and asks for the permissions it needs: files, notifications, network. |
+| **Sandboxed apps** | Every app runs in a sandbox with no network access, and asks for what it needs: your files, notifications, the clipboard. |
 
 ## Repositories
 
